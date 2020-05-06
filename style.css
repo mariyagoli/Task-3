@@ -1,0 +1,99 @@
+header
+{
+    font-size: 16pt;
+    color: cornsilk;
+    padding: 15px;
+    text-align: center;
+}
+body
+{
+    background-color:rgb(54, 52, 52) ;
+    width:100%;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 14px;
+
+}
+table
+{
+    border:1px solid grey;
+    width: 60%;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    text-align: left; 
+    table-layout: fixed;
+    border-collapse: separate; 
+    border-spacing: 0px ;
+}
+table td:last-child
+{
+    text-align: right;
+}
+td
+{
+border-bottom: 1px grey;
+  border-top: 1px solid grey;
+  padding:10px;
+}
+tr:hover td
+ {
+     background: grey;
+     border-color: white;
+     border-bottom: 1px;
+}
+th
+ {
+height: 15px;
+padding: 10px;
+}
+.data
+{
+  color: grey;
+}
+.thirdtable, .secondtable, .firsttable
+{ 
+  margin:20px;
+  border-radius: 5px;
+}
+   .fa-minus-square, .fa-square, .fa-check-square, .fa-inbox
+  {
+    padding-left: 5 px;
+    padding-right: 10px;
+  }
+  .fa-caret-down
+  {
+    padding-left: 10px;
+  }
+  form
+{
+background-color:  rgb(63, 61, 61);
+color: white;
+width: 200px;
+margin: 0 auto;
+}
+input, button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 70%;
+  height: 20 px;
+  position:left;
+  padding-left: 15px;
+  border-radius: 5px;
+  
+}
+button {
+  height: 20px;
+  width: 20px;
+  position: right ;
+  top: 0;
+  left: 15px;
+  cursor: pointer;
+  }
+  button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
